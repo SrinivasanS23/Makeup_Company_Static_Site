@@ -1,29 +1,30 @@
-/* General Styling */
-.container-fluid {
-    background-color: #C08497;
-    height: 7vh;
-    font-size: larger;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-}
-
+/* Navbar */
 .navbar {
     position: fixed;
-    z-index: 1000;
+    top: 0;
     width: 100%;
+    z-index: 1000;
+    background-color: #C08497 !important;
 }
 
-/* Navigation Link Styling */
-#Home:hover {
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
     transform: scale(1.1);
-    transition: 0.3s;
-    color: white;
+    transition: 0.3s ease-in-out;
 }
 
 /* Carousel */
 .carousel-item img {
-    height: 60vh; /* Adjusts height for responsiveness */
-    object-fit: cover; /* Prevents cropping */
+    width: 100%;
+    max-height: 80vh; /* Maintain aspect ratio */
+    object-fit: cover;
 }
 
 /* Section Titles */
@@ -33,33 +34,28 @@
     font-size: xx-large;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 20px;
 }
 
 /* Cards */
-.card {
-    margin: auto;
-    width: 100%;
-    max-width: 300px;
-}
-
 .card img {
-    height: 100%;
     width: 100%;
-    object-fit: cover; /* Prevents image cropping */
+    height: auto;
+    object-fit: cover;
 }
 
-/* Reviews */
-.review-img {
+/* User Reviews */
+.user-reviews {
+    margin-top: 30px;
+}
+
+.user-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin: auto;
-    display: block;
+    object-fit: cover;
 }
 
 .review-text {
-    text-align: center;
     color: #936D7C;
     font-size: large;
     font-style: italic;
