@@ -1,50 +1,53 @@
-.container-fluid{
-    background-color:#C08497;
-    height: 7vh;
-    margin-top: -0.5%;
-    margin-bottom: -0.5%;
-    font-size: larger;
+/* Navbar */
+.navbar {
+    background-color: #C08497 !important;
+    padding: 10px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+/* About Section */
+.about-section {
+    margin-top: 100px; /* Pushes content below the fixed navbar */
+    padding: 20px;
+}
+
+.section-title {
+    color: #936D7C;
+    font-size: 2rem;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    
-    
+    margin-bottom: 20px;
 }
 
-body{
-    margin-bottom: -5%;
-}
-.navbar-nav{
-    margin-left: 25%;
-}
-
-#Home:hover{
-    transform:scale(1.3);
-    transition: 1s; 
-    color: white;
-    
-}
-h3{
-    font-size: x-large;
+.about-text {
+    font-size: 1.2rem;
     color: #704E5A;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: center;
-    line-height: 2;
-    margin-left: 7%;
-    margin-right: 8%;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: auto;
+    padding: 0 15px;
 }
-@media (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
 
-    .container {
-        width: 100%;
-        padding: 10px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+/* Footer */
+.footer {
+    background-color: #C08497;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
 }
