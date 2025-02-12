@@ -1,7 +1,9 @@
 /* General Styling */
 body {
-    background-color: #FADADD;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #FADADD;
+    margin: 0;
+    padding: 0;
 }
 
 /* Navbar */
@@ -39,10 +41,26 @@ body {
 }
 
 /* Video Section */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
 .video-container video {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 /* Services Title */
@@ -55,14 +73,21 @@ body {
 
 /* Service Cards */
 .card {
-    width: 100%;
-    height: auto;
-    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card img {
     height: 250px;
     object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .card-body p {
