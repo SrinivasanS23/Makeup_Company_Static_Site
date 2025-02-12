@@ -1,94 +1,55 @@
-/* Navbar */
-.bg-custom {
-    background-color: #C08497 !important;
-}
-
-.navbar-brand {
-    font-size: 1.5rem;
+.container-fluid {
+    background-color: #C08497;
+    height: 7vh;
+    font-size: larger;
     font-style: italic;
-    color: #FFFFF0 !important;
-}
-
-.navbar-nav .nav-link {
-    color: #FFFFF0 !important;
-    font-size: 1.2rem;
-    margin: 5px;
-}
-
-.navbar-nav .nav-link:hover {
-    transform: scale(1.1);
-    transition: 0.3s ease-in-out;
-    color: white !important;
-}
-
-/* Carousel */
-.carousel-item img {
-    height: 70vh;
-    object-fit: cover;
-}
-
-/* Section Titles */
-.section-title {
-    color: #936D7C;
-    text-align: center;
-    font-size: 2rem;
-    font-style: italic;
-    margin: 20px 0;
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* Cards */
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+#Home:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: white;
+}
+
+.carousel-item {
+    height: auto;
+}
+
+.section-title {
+    color: #936D7C;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+}
+
 .card {
     width: 100%;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    height: auto;
 }
 
-.card-img-top {
-    height: 350px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-/* User Reviews */
 .review-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-bottom: 10px;
 }
 
-/* Footer */
 .footer {
     background-color: #C08497;
-    color: white;
-    text-align: center;
     padding: 10px;
+    text-align: center;
+    color: white;
     margin-top: 20px;
-}
-
-/* Responsive Design */
-@media (max-width: 992px) {
-    .navbar-nav {
-        text-align: center;
-    }
-    .carousel-item img {
-        height: 50vh;
-    }
-    .card-img-top {
-        height: 300px;
-    }
-}
-
-@media (max-width: 576px) {
-    .carousel-item img {
-        height: 40vh;
-    }
-    .review-img {
-        width: 100px;
-        height: 100px;
-    }
-    .card-img-top {
-        height: 250px;
-    }
 }
