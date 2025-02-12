@@ -1,40 +1,75 @@
-.container-fluid{
-    background-color:#C08497;
+/* Navbar */
+.container-fluid {
+    background-color: #C08497;
     height: 7vh;
-    margin-top: -0.5%;
-    margin-bottom: -0.5%;
     font-size: larger;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    
-    
 }
 
-body{
-    margin-bottom: -5%;
-}
-.navbar-nav{
-    margin-left: 25%;
+.navbar-nav {
+    margin-left: auto;
 }
 
-#Home:hover{
-    transform:scale(1.3);
-    transition: 1s;
+#Home:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
     color: white;
-    
 }
-@media (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
 
-    .container {
-        width: 100%;
-        padding: 10px;
-    }
+/* Section Title */
+.section-title {
+    color: #936D7C;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4%;
+}
 
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+/* Contact Info Styling */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: #936D7C;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.contact-info a:hover {
+    color: #C08497;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+/* Appointment Text */
+.appointment-text {
+    color: #936D7C;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+/* Footer */
+.footer {
+    background-color: #C08497;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
 }
