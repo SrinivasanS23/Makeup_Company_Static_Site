@@ -1,7 +1,7 @@
 /* General Styling */
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #FADADD;
+    background-color: #C08497; /* Matches Home and About Page */
     margin: 0;
     padding: 0;
 }
@@ -65,7 +65,7 @@ body {
 
 /* Services Title */
 .services-title {
-    color: #936D7C;
+    color: white; /* Stands out on the matching background */
     font-size: 2rem;
     font-style: italic;
     margin: 20px 0;
