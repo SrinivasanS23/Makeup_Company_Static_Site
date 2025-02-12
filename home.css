@@ -1,3 +1,4 @@
+/* General Styling */
 .container-fluid {
     background-color: #C08497;
     height: 7vh;
@@ -12,44 +13,63 @@
     width: 100%;
 }
 
-.navbar-nav {
-    margin-left: auto;
-}
-
+/* Navigation Link Styling */
 #Home:hover {
     transform: scale(1.1);
-    transition: 0.5s;
+    transition: 0.3s;
     color: white;
 }
 
-.carousel-item {
-    height: auto;
+/* Carousel */
+.carousel-item img {
+    height: 60vh; /* Adjusts height for responsiveness */
+    object-fit: cover; /* Prevents cropping */
 }
 
+/* Section Titles */
 .section-title {
     color: #936D7C;
     text-align: center;
     font-size: xx-large;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 2%;
+    margin-top: 20px;
 }
 
+/* Cards */
 .card {
+    margin: auto;
     width: 100%;
-    height: auto;
+    max-width: 300px;
 }
 
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Prevents image cropping */
+}
+
+/* Reviews */
 .review-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin: auto;
+    display: block;
 }
 
+.review-text {
+    text-align: center;
+    color: #936D7C;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Footer */
 .footer {
     background-color: #C08497;
-    padding: 10px;
-    text-align: center;
     color: white;
-    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
 }
