@@ -1,0 +1,33 @@
+.container-fluid{
+    background-color:#C08497;
+    height: 7vh;
+    margin-top: -0.5%;
+    margin-bottom: -0.5%;
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+        
+}
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+body{
+    margin-bottom: -5%;
+}
+.navbar-nav{
+    margin-left: 25%;
+}
+
+#Home:hover{
+    transform:scale(1.3);
+    transition: 1s;
+    
+    color: white;
+    
+}
+.carousel-item{
+    height: 1200px;
+}
